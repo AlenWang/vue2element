@@ -19,7 +19,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, '../dist/assets'),
     filename: '[name].js',
-    publicPath: '/assets/'
+    publicPath: 'assets/'
   },
   resolve: {
     extensions: ['', '.js', '.vue', '.css', '.json'],
