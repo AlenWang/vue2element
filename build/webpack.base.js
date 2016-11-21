@@ -3,7 +3,6 @@ const path = require('path')
 const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const config = require('./config')
-const DashboardPlugin = require('webpack-dashboard/plugin')
 
 module.exports = {
   entry: {
@@ -67,6 +66,5 @@ module.exports = {
       filename: '../index.html',
       favicon: __dirname + '/favicon.jpg'
     }),
-    new DashboardPlugin()
   ]
 }

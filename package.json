@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo lol",
     "build": "webpack --config build/webpack.prod.js",
-    "dev": "webpack-dashboard -- node build/server.js",
+    "dev": "node build/server.js",
     "lint": "eslint client/* --ext .js --ext .vue"
   },
   "author": "",
@@ -38,7 +38,6 @@
     "style-loader": "^0.13.1",
     "vue-loader": "^9.7.0",
     "webpack": "2.1.0-beta.22",
-    "webpack-dashboard": "^0.2.0",
     "webpack-dev-middleware": "^1.8.4",
     "webpack-hot-middleware": "^2.13.0"
   }
